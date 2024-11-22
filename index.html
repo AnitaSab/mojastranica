@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svijet Kolača</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="naslov" class="glavni-naslov">DOBRODOŠLI U SVIJET KOLAČA!</h1>
+    </header>
+
+    <section>
+        <p>Kolači su omiljena slastica mnogih, a njihove varijacije su <sup>beskonačne.</sup> Ovdje ćemo istražiti sve najpopularnije <sub>vrste kolača</sub></p>
+
+        <h2>Najpopularniji kolači</h2>
+        <ul class="lista-kolaca" data-tip="popularni">
+            <li><strong class="naglaseno">Čokoladni kolač</strong> – savršen za ljubitelje <em>čokolade</em></li>
+            <li>Voćni kolači s <em>različitim vrstama</em> voća</li>
+            <li>Torta od sira s premazom od <strong class="naglaseno">bijele čokolade</strong> ili <strong>šumskog voća</strong></li>
+        </ul>
+
+        <h2>Recept za čokoladni kolač</h2>
+        <h3>Sastojci za biskvit:</h3>
+        <ul>
+            <li>4 jaja</li>
+            <li>10 dkg šećera</li>
+            <li>20 dkg margarina</li>
+            <li>10 dkg čokolade za kuhanje</li>
+            <li>4 žlice brašna</li>
+            <li>1 prašak za pecivo</li>
+        </ul>
+
+        <h3>Koraci za pripremu:</h3>
+        <ol>
+            <li><span>Pripremite sve sastojke.</span></li>
+            <li>Umutiti žutanjke i šećer, dodati margarin i čokoladu, brašno i snijeg od bijelanjaka.</li>
+            <li>Pecite na <span>180°C 20 minuta.</span></li>
+        </ol>
+
+        <h2>Zašto je čokolada dobra za vas?</h2>
+        <p class="italic-text float-text">
+            <span class="highlight">Čokolada</span> sadrži <strong>antioksidanse</strong> koji pozitivno utječu na <em>zdravlje</em>. Poboljšava cirkulaciju i raspoloženje!
+        </p>
+
+        <h2>Kontaktirajte nas</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Kontakt forma</legend>
+
+                <label for="ime">Ime:</label>
+                <input type="text" id="ime" name="ime" placeholder="Vaše ime" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Vaš email" required>
+
+                <label for="kategorija">Kategorija upita:</label>
+                <select id="kategorija" name="kategorija">
+                    <option value="pitanje" selected>Pitanje</option>
+                    <option value="pohvala">Pohvala</option>
+                    <option value="prijedlog">Prijedlog</option>
+                    <option value="kritika">Kritika</option>
+                </select>
+
+                <label for="poruka">Poruka:</label>
+                <textarea id="poruka" name="poruka" placeholder="Vaša poruka"></textarea>
+
+                <button type="submit">Pošalji</button>
+            </fieldset>
+        </form>
+
+        <h2>Popularni kolači</h2>
+        <table class="cake-table">
+            <thead>
+                <tr>
+                    <th>NAZIV</th>
+                    <th colspan="2">SASTOJCI</th>
+                    <th>CIJENA (euri)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Čokoladni kolač</td>
+                    <td>Čokolada</td>
+                    <td>Margarine</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Voćna torta</td>
+                    <td>Voće</td>
+                    <td>Vrhnje</td>
+                    <td rowspan="2">2.50</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Biskvit</td>
+                </tr>
+                <tr>
+                    <td>Torta od sira</td>
+                    <td>Sir</td>
+                    <td>Bijela čokolada</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+	
+	<div class="float-text">
+    s v i j e t   k o l a č a
+</div>
+<div style="clear: both;"></div>
+
+</body>
+</html>
+
+
